@@ -10,7 +10,7 @@ print("BOT_TOKEN set: " + ("YES" if BOT_TOKEN else "NO"))
 print("GEMINI_KEY set: " + ("YES" if GEMINI_KEY else "NO"))
 
 BASE = "https://api.telegram.org/bot" + BOT_TOKEN
-GEM  = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-latest:generateContent"
+GEM  = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
 def send(chat_id, text):
     try:
