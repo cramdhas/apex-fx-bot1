@@ -5,7 +5,7 @@ GEMINI_KEY = os.environ.get("GEMINI_KEY", "")
 
 # ── TRADE SETTINGS (your personal settings) ───────────────────────────
 LOT_SIZE = 0.01
-SL_PIPS  = 40
+SL_PIPS  = 15
 TP1_PIPS = 50
 TP2_PIPS = 70
 TP3_PIPS = 100
